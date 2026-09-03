@@ -1,5 +1,7 @@
 # 🚀 DSA-Practice
 
+![LeetCode Stats](https://leetcard.jacoblin.cool/shiveshwarydv?theme=dark)
+
 ## 📅 Daily Progress
 
 | Day | Topic | Problem | Status |
