@@ -4,6 +4,7 @@
 
 ## 📅 Daily Progress
 
-| Day | Topic | Problem | Status |
-|-----|-------|---------|--------|
-| 1 | Arrays | 3Sum | ✅ Solved |
+| Day | pattern   | Problem | Status |
+|-----|-----------|---------|--------|
+| 1 | two pointer | 3Sum    | Solved |
+| 2 | two pointer |         |        |
