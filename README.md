@@ -7,4 +7,4 @@
 | Day | pattern   | Problem | Status |
 |-----|-----------|---------|--------|
 | 1 | two pointer | 3Sum    | Solved |
-| 2 | two pointer |         |        |
+| 2 | two pointer | LC (16) | Solved |
