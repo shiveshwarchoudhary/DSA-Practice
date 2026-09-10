@@ -1,0 +1,36 @@
+ 3-Month Full Structure (Week-by-Week)
+Ye plan Striver's A2Z Sheet  aur 3-month sprint plans  ko combine karke banaya hai, taaki tumhe kuch aur dhundhna na pade.
+
+Week	Topic / Pattern	Kitne Questions	Kya Seekhna Hai (Patterns)
+Month 1: Foundation & Core Patterns			
+Week 1	Arrays & Hashing	15-18 Qs	Prefix Sum, Kadane's Algorithm, HashMap for frequency/counting, Two Sum variations 
+Week 2	Two Pointers & Sliding Window	12-15 Qs	Fixed vs Variable window, Opposite direction pointers, Same direction pointers, Monotonic Queue intro 
+Week 3	Binary Search & Sorting	12-15 Qs	Classic Binary Search, Binary Search on Answer (Koko Eating Bananas, Ship Packages), Rotated Array search 
+Week 4	Linked List & Stack/Queue	15-18 Qs	Fast & Slow pointers, In-place reversal, Monotonic Stack (Next Greater Element), LRU Cache intro 
+Month 2: Trees, Graphs & Advanced Patterns			
+Week 5	Binary Trees & BST	15-18 Qs	All Traversals (Recursive + Iterative), LCA, Diameter, Validate BST, Level Order (BFS) 
+Week 6	Heaps & Greedy	12-15 Qs	Top-K problems, Merge K sorted lists, Interval Scheduling, Jump Game 
+Week 7	Graphs - Part 1	15-18 Qs	BFS/DFS on Matrix, Number of Islands, Cycle Detection, Bipartite Check 
+Week 8	Graphs - Part 2 & Recursion/Backtracking	12-15 Qs	Topological Sort, Dijkstra (intro), Subsets, Permutations, N-Queens 
+Month 3: DP & Final Polish			
+Week 9	DP - Part 1 (1D & 2D)	12-15 Qs	Climbing Stairs, House Robber, Unique Paths, Min Path Sum 
+Week 10	DP - Part 2 (Knapsack & Strings)	12-15 Qs	0/1 Knapsack, Unbounded Knapsack (Coin Change), LCS, Edit Distance, LIS 
+Week 11	Mock Interviews & Weak Areas	8-10 Qs	Pichle topics ke mixed questions, Time-bound practice (Easy 15 min, Medium 30 min) 
+Week 12	Full Revision + Company-Specific	10-12 Qs	Jo companies aa rahi hain unke previous year questions, CS Fundamentals (OS, DBMS) quick revision 
+💡 Total Questions: ~150-180
+Ye exact target hai. Isse zyada mat karna, quality pe focus karo. Har question ke baad pattern note karo — "Ye problem kis trigger pe kaunsi approach use ki" .
+
+🎯 Pattern Mastery (Kya-Kya Aana Chahiye)
+Arrays/Strings: Sliding Window, Two Pointers, Prefix Sum, Kadane's, Binary Search on Answer 
+
+LinkedList: Fast/Slow Pointers (Cycle detect, Middle), In-place Reversal 
+
+Stack/Queue: Monotonic Stack (Next Greater, Histogram) 
+
+Trees: DFS Traversals, BFS Level Order, Postorder for height/diameter/LCA 
+
+Graphs: BFS/DFS, Topological Sort (Kahn's), Dijkstra (basic) 
+
+DP: 0/1 Knapsack, Unbounded Knapsack, LCS, LIS, DP on Grids 
+
+                                   
