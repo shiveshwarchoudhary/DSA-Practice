@@ -1,0 +1,31 @@
+class Solution {
+    public void sortColors(int[] nums) {
+// at starting i to n is unknown for everyone
+// k+1 =  2 rahega
+// j to i-1 =  tak '1'  rahega ;
+// 0 to j-1;  = 0 rahega
+
+        int n = nums.length;
+        int i = 0;      // agar i ke pass 1 ayega tabhi i age badhega 
+        int j = 0;    //  agart j ke pass zero ayega tabhi j age badhega 
+        int k = n-1; //  age k  ke pass 2 ayega tabhi k --  hoga 
+        int temp = 0;
+     while(i <= k){
+       if(nums[i] == 1){
+          i++;
+       }else if(nums[i] == 0){
+         temp = nums[i];
+         nums[i] = nums[j];
+         nums[j] = temp;
+         j++;
+         i++;
+       }else if(nums[i] == 2){
+        temp = nums[i];
+        nums[i]= nums[k];
+        nums[k]= temp;
+        k--;
+       }
+     }
+
+    }
+}
