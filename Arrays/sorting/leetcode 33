@@ -1,0 +1,38 @@
+class Solution {
+    public int search(int[] nums, int target) {
+   
+    int n = nums.length;
+    int left = 0;
+    int right = n-1;
+       
+       while(left <= right){
+        int mid = left + (right-left)/2;   // left = 10, right = 20
+                              //Purana: (10 + 20)/2 = 15
+                              //Naya:   10 + (20-10)/2 = 10 + 5 = 15 
+       
+       // 
+       if(nums[mid] == target) return mid;
+
+       // left sorted array
+       if(nums[left] <= nums[mid]){
+        // then target is in left range
+        if(target >= nums[left] && target <nums[mid]){
+            right = mid-1;  // search in left
+        }else{
+            left = mid+1;   // search in right
+        }
+       }
+       // Warna right half pakka sorted hai
+       else {
+       if(target > nums[mid] && target <= nums[right]){
+        left = mid+1;   // seearch in right
+       }else{
+        right = mid-1;  // left me jao
+       }
+
+       
+       }
+    }
+    return -1;
+}
+}
